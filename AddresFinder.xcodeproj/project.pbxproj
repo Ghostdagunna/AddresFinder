@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93E3BDE52ACDC66A00ABBC71 /* AddresFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3BDE42ACDC66A00ABBC71 /* AddresFinderApp.swift */; };
+		93E3BDE72ACDC66A00ABBC71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3BDE62ACDC66A00ABBC71 /* ContentView.swift */; };
+		93E3BDE92ACDC66D00ABBC71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E3BDE82ACDC66D00ABBC71 /* Assets.xcassets */; };
+		93E3BDEC2ACDC66D00ABBC71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E3BDEB2ACDC66D00ABBC71 /* Preview Assets.xcassets */; };
+		93E3BDF62ACDC66E00ABBC71 /* AddresFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3BDF52ACDC66E00ABBC71 /* AddresFinderTests.swift */; };
+		93E3BE002ACDC66E00ABBC71 /* AddresFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3BDFF2ACDC66E00ABBC71 /* AddresFinderUITests.swift */; };
+		93E3BE022ACDC66E00ABBC71 /* AddresFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3BE012ACDC66E00ABBC71 /* AddresFinderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93E3BDF22ACDC66E00ABBC71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E3BDD92ACDC66A00ABBC71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93E3BDE02ACDC66A00ABBC71;
+			remoteInfo = AddresFinder;
+		};
+		93E3BDFC2ACDC66E00ABBC71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E3BDD92ACDC66A00ABBC71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93E3BDE02ACDC66A00ABBC71;
+			remoteInfo = AddresFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93E3BDE12ACDC66A00ABBC71 /* AddresFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddresFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E3BDE42ACDC66A00ABBC71 /* AddresFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddresFinderApp.swift; sourceTree = "<group>"; };
+		93E3BDE62ACDC66A00ABBC71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93E3BDE82ACDC66D00ABBC71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93E3BDEB2ACDC66D00ABBC71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93E3BDF12ACDC66E00ABBC71 /* AddresFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddresFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E3BDF52ACDC66E00ABBC71 /* AddresFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddresFinderTests.swift; sourceTree = "<group>"; };
+		93E3BDFB2ACDC66E00ABBC71 /* AddresFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddresFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E3BDFF2ACDC66E00ABBC71 /* AddresFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddresFinderUITests.swift; sourceTree = "<group>"; };
+		93E3BE012ACDC66E00ABBC71 /* AddresFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddresFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93E3BDDE2ACDC66A00ABBC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E3BDEE2ACDC66E00ABBC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E3BDF82ACDC66E00ABBC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93E3BDD82ACDC66A00ABBC71 = {
+			isa = PBXGroup;
+			children = (
+				93E3BDE32ACDC66A00ABBC71 /* AddresFinder */,
+				93E3BDF42ACDC66E00ABBC71 /* AddresFinderTests */,
+				93E3BDFE2ACDC66E00ABBC71 /* AddresFinderUITests */,
+				93E3BDE22ACDC66A00ABBC71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93E3BDE22ACDC66A00ABBC71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93E3BDE12ACDC66A00ABBC71 /* AddresFinder.app */,
+				93E3BDF12ACDC66E00ABBC71 /* AddresFinderTests.xctest */,
+				93E3BDFB2ACDC66E00ABBC71 /* AddresFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93E3BDE32ACDC66A00ABBC71 /* AddresFinder */ = {
+			isa = PBXGroup;
+			children = (
+				93E3BDE42ACDC66A00ABBC71 /* AddresFinderApp.swift */,
+				93E3BDE62ACDC66A00ABBC71 /* ContentView.swift */,
+				93E3BDE82ACDC66D00ABBC71 /* Assets.xcassets */,
+				93E3BDEA2ACDC66D00ABBC71 /* Preview Content */,
+			);
+			path = AddresFinder;
+			sourceTree = "<group>";
+		};
+		93E3BDEA2ACDC66D00ABBC71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				93E3BDEB2ACDC66D00ABBC71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93E3BDF42ACDC66E00ABBC71 /* AddresFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				93E3BDF52ACDC66E00ABBC71 /* AddresFinderTests.swift */,
+			);
+			path = AddresFinderTests;
+			sourceTree = "<group>";
+		};
+		93E3BDFE2ACDC66E00ABBC71 /* AddresFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93E3BDFF2ACDC66E00ABBC71 /* AddresFinderUITests.swift */,
+				93E3BE012ACDC66E00ABBC71 /* AddresFinderUITestsLaunchTests.swift */,
+			);
+			path = AddresFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93E3BDE02ACDC66A00ABBC71 /* AddresFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E3BE052ACDC66E00ABBC71 /* Build configuration list for PBXNativeTarget "AddresFinder" */;
+			buildPhases = (
+				93E3BDDD2ACDC66A00ABBC71 /* Sources */,
+				93E3BDDE2ACDC66A00ABBC71 /* Frameworks */,
+				93E3BDDF2ACDC66A00ABBC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddresFinder;
+			productName = AddresFinder;
+			productReference = 93E3BDE12ACDC66A00ABBC71 /* AddresFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93E3BDF02ACDC66E00ABBC71 /* AddresFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E3BE082ACDC66E00ABBC71 /* Build configuration list for PBXNativeTarget "AddresFinderTests" */;
+			buildPhases = (
+				93E3BDED2ACDC66E00ABBC71 /* Sources */,
+				93E3BDEE2ACDC66E00ABBC71 /* Frameworks */,
+				93E3BDEF2ACDC66E00ABBC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93E3BDF32ACDC66E00ABBC71 /* PBXTargetDependency */,
+			);
+			name = AddresFinderTests;
+			productName = AddresFinderTests;
+			productReference = 93E3BDF12ACDC66E00ABBC71 /* AddresFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93E3BDFA2ACDC66E00ABBC71 /* AddresFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E3BE0B2ACDC66E00ABBC71 /* Build configuration list for PBXNativeTarget "AddresFinderUITests" */;
+			buildPhases = (
+				93E3BDF72ACDC66E00ABBC71 /* Sources */,
+				93E3BDF82ACDC66E00ABBC71 /* Frameworks */,
+				93E3BDF92ACDC66E00ABBC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93E3BDFD2ACDC66E00ABBC71 /* PBXTargetDependency */,
+			);
+			name = AddresFinderUITests;
+			productName = AddresFinderUITests;
+			productReference = 93E3BDFB2ACDC66E00ABBC71 /* AddresFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93E3BDD92ACDC66A00ABBC71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					93E3BDE02ACDC66A00ABBC71 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					93E3BDF02ACDC66E00ABBC71 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 93E3BDE02ACDC66A00ABBC71;
+					};
+					93E3BDFA2ACDC66E00ABBC71 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 93E3BDE02ACDC66A00ABBC71;
+					};
+				};
+			};
+			buildConfigurationList = 93E3BDDC2ACDC66A00ABBC71 /* Build configuration list for PBXProject "AddresFinder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93E3BDD82ACDC66A00ABBC71;
+			productRefGroup = 93E3BDE22ACDC66A00ABBC71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93E3BDE02ACDC66A00ABBC71 /* AddresFinder */,
+				93E3BDF02ACDC66E00ABBC71 /* AddresFinderTests */,
+				93E3BDFA2ACDC66E00ABBC71 /* AddresFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93E3BDDF2ACDC66A00ABBC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E3BDEC2ACDC66D00ABBC71 /* Preview Assets.xcassets in Resources */,
+				93E3BDE92ACDC66D00ABBC71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E3BDEF2ACDC66E00ABBC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E3BDF92ACDC66E00ABBC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93E3BDDD2ACDC66A00ABBC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E3BDE72ACDC66A00ABBC71 /* ContentView.swift in Sources */,
+				93E3BDE52ACDC66A00ABBC71 /* AddresFinderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E3BDED2ACDC66E00ABBC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E3BDF62ACDC66E00ABBC71 /* AddresFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E3BDF72ACDC66E00ABBC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E3BE002ACDC66E00ABBC71 /* AddresFinderUITests.swift in Sources */,
+				93E3BE022ACDC66E00ABBC71 /* AddresFinderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93E3BDF32ACDC66E00ABBC71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93E3BDE02ACDC66A00ABBC71 /* AddresFinder */;
+			targetProxy = 93E3BDF22ACDC66E00ABBC71 /* PBXContainerItemProxy */;
+		};
+		93E3BDFD2ACDC66E00ABBC71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93E3BDE02ACDC66A00ABBC71 /* AddresFinder */;
+			targetProxy = 93E3BDFC2ACDC66E00ABBC71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93E3BE032ACDC66E00ABBC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93E3BE042ACDC66E00ABBC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93E3BE062ACDC66E00ABBC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AddresFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BRL7K52S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jordanmck.AddresFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93E3BE072ACDC66E00ABBC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AddresFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BRL7K52S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jordanmck.AddresFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93E3BE092ACDC66E00ABBC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3BRL7K52S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jordanmck.AddresFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddresFinder.app/AddresFinder";
+			};
+			name = Debug;
+		};
+		93E3BE0A2ACDC66E00ABBC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3BRL7K52S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jordanmck.AddresFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddresFinder.app/AddresFinder";
+			};
+			name = Release;
+		};
+		93E3BE0C2ACDC66E00ABBC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3BRL7K52S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jordanmck.AddresFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddresFinder;
+			};
+			name = Debug;
+		};
+		93E3BE0D2ACDC66E00ABBC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3BRL7K52S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jordanmck.AddresFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddresFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93E3BDDC2ACDC66A00ABBC71 /* Build configuration list for PBXProject "AddresFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E3BE032ACDC66E00ABBC71 /* Debug */,
+				93E3BE042ACDC66E00ABBC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E3BE052ACDC66E00ABBC71 /* Build configuration list for PBXNativeTarget "AddresFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E3BE062ACDC66E00ABBC71 /* Debug */,
+				93E3BE072ACDC66E00ABBC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E3BE082ACDC66E00ABBC71 /* Build configuration list for PBXNativeTarget "AddresFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E3BE092ACDC66E00ABBC71 /* Debug */,
+				93E3BE0A2ACDC66E00ABBC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E3BE0B2ACDC66E00ABBC71 /* Build configuration list for PBXNativeTarget "AddresFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E3BE0C2ACDC66E00ABBC71 /* Debug */,
+				93E3BE0D2ACDC66E00ABBC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93E3BDD92ACDC66A00ABBC71 /* Project object */;
+}
